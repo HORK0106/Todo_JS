@@ -8,7 +8,7 @@ const onClickAdd = () => {
 
 // 未完了リストから指定の要素を削除
 const deleteFromImcomleteList = (target) => {
-  document.getElementById("imcomplete-list").removeChild(target);
+  document.getElementById("incomplete-list").removeChild(target);
 };
 
 //未完了リストに追加する関数
@@ -77,7 +77,7 @@ const createImcompleteList = (text) => {
   div.appendChild(deleteButton);
 
   //未完了リストに追加
-  document.getElementById("imcomplete-list").appendChild(div);
+  document.getElementById("incomplete-list").appendChild(div);
 }
 
 document
